@@ -1,0 +1,17 @@
+package java Tpoint.MicrosoftJava;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+public class InputMismatchExample{
+    public static void main(sting args[]){
+        Scanner sc = new Scanner(System.in);
+     try {  
+        System.out.println("Enter value of a to get its square value:");  
+        Integer a = sc.nextInt(); // we give any float value as input   
+        System.out.println((a*a));  
+     }   
+     catch (InputMismatchException ex) {  
+        System.out.println(ex);  
+     }  
+   }  
+}
+
